@@ -1,0 +1,12 @@
+/* map.component.css */
+
+.map-container {
+  width: 100%; /* Largura total */
+  height: 600px; /* Altura fixa para exibir o mapa */
+  border: 1px solid #ccc; /* Opcional: borda para visualização */
+}
+
+
+  /*
+  O OpenLayers não define automaticamente a largura/altura do mapa. Sem esses estilos, o mapa não seria exibido corretamente.
+  */
