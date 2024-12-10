@@ -1,5 +1,21 @@
-#map {
-    width: 100%;
-    height: 100vh;
+main {
+    display: flex;
+    flex-direction: column;
+    height: fixed; /* Altura automática */
+    padding: 10px;
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: 0 auto;    /* Centraliza o conteúdo */
+  }
+  
+  
+  h1 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 10px;
+  }
+  .app-parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta conforme o necessário */
   }
   
