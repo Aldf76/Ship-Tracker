@@ -1,10 +1,21 @@
 /* map.component.css */
 
-.map-container {
-  width: 100%; /* Largura total */
-  height: 600px; /* Altura fixa para exibir o mapa */
-  border: 1px solid #ccc; /* Opcional: borda para visualização */
+/* styles.css ou map.component.css */
+#map {
+  height: 800px; /* Define altura completa do contêiner */
+  min-height: 400px; /* Define altura mínima */
+  width: 100%; /* Define largura completa */
+  border: 1px solid #ccc; /* Opcional: borda para destaque */
 }
+
+
+.parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 
 
   /*
