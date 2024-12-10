@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { MapComponent } from './features/components/map/map.component';
-import { HttpClientModule} from '@angular/common/http'
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HttpClientModule, MapComponent], // Importações para o projeto.
+  imports: [ MapComponent], // Importações para o projeto.
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
